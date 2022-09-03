@@ -1,0 +1,96 @@
+DOS- Disk Operating System
+UNIX - Command Line Interpreter
+
+ Unix:
+     > Management - Memory, Processor, Device, File
+     > Security
+     >Control Over System Performance
+     >Job scheduling
+     > Error Detecting
+
+Properties:
+    > can have GUI
+    >forward slash (/) to seperate directories
+    >Shell Script
+    >Is Case-Sensitive
+    >Hierarchical Model
+    
+
+UNIX Flavours/ Versions:
+       AIX      - IBM
+       HP Ux    - HP
+       Solaris  - Sun 
+       Tru64Unix- Compaq 
+       TRIX     - SGI 
+       SCO Unix - SCO
+       Xenix    - Microsoft
+       UTS      - Amdhal Corporation 
+       Linux    - Red Hat
+
+
+Architecture:
+
+ Hardware  ---> Kernel --->Shell --->FTP 
+                           Vi        DBMS 
+                           env       Mail 
+                           cut       Apps
+                           which 
+                           more
+                           sh 
+                           bash 
+                           ksh 
+
+Shell is the interaface between  Hardware and the User.
+
+Different Shells:
+   > C Shell                   - csh
+   > Bourne Shell           - sh
+   > Korn Shell              - ksh
+   > Bourne Again Shell - bash
+
+
+Organisation:
+
+UNIX => Files => Directories ==> Tree_Like Structure(FILE_SYSTEM)
+
+FILE_SYSTEM ----> 4 Blocks.
+
+      1. Boot Block : Shutdown, Restart, Logoff, Switch User ...etc   
+
+      2. Super Block: Admin info.( State of the File System, 
+                                   Number of inodes, 
+                                   num. of Disk blocks,
+                                   Next available free blocks)
+
+      3. Inode Block: Stores List of Nodes For all the files in a file system
+                      Characteristics of Files are Pointed here.
+
+      4. Data Block : File and Adminstrative data are stored.
+
+
+Unix Command Usage:
+  > Simple   : Just giving its name in cmd prompt...( Date, Cal)
+  > Complex  : Command name + List of Arguments
+  > Compound : list of simple or Complex command seperated by a command seperator
+
+
+Internal Command             Vs         External Command
+
+>Executed by Shell                         > By Kernel
+>No Seperate Process Id for each     > Seperate Process Id
+>Shell-Built in commands                > Seperate Binaries
+>Faster                                          > Bit Slower.
+
+
+Directory Structure:
+
+* Upstream Directories     -  Parent / Previous directory
+   Downstream Directories -  Child / Sub directory
+
+* Start is the root(/) - base of the file system
+
+
+
+
+
+
