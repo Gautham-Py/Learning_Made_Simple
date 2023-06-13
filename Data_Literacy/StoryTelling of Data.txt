@@ -1,0 +1,75 @@
+Data storytelling is about making connections, using data as the guiding source.
+
+Why is Data Storytelling so Effective?
+
+--> Storytelling cuts through Noise.
+--> Stories resonate on a Human Level.
+
+Examples of Storytelling  
+
+    ----Hinge: The Dating Apocalypse----
+
+    Using the consumer data at their disposal, they shaped a story around the knowledge that existing dating apps don’t often lead to meaningful relationships.
+    
+    By encouraging people to “find something real”, their campaign titled The Dating Apocalypse, explores the damaging effects of “swipe culture” and how it’s an unnatural way for us to create relationships.
+
+    In their campaign, Hinge confidently presents its new approach to dating as the refreshing antidote to a toxic industry.
+
+
+    ----Patagonia: Don’t Buy this Jacket----
+
+    Their reputation for producing high-quality clothing feeds into their strong environmental message.
+
+    This message was taken to the extreme in their Black Friday campaign, which told consumers not to buy their products unless they truly require them because of the cost to the environment.
+
+    The ‘don’t buy what you don’t need’ sentiment of this campaign offers a refreshing and unique alternative to the bombardment of brands shouting at consumers to buy their products.
+    
+    60% of millennials would pay extra for eco-friendly or sustainable products.
+
+
+    ----Refinery29: #SeeThe67----
+
+    While 67% of American women are plus-sized, they make up less than 2% of the images we see.
+
+    In response to this, the brand partnered with visual media company, Getty Images, to create a selection of free stock images which included plus-size women.
+
+    Users were also encouraged to share their campaign hashtag, #SeeThe67, to increase awareness.
+
+Data storytelling is one of the most progressive techniques for both building a strong brand identity and driving campaigns that work today.
+
+Heart of Data Story Telling:
+     > It’s important to recognize that each team serves a distinct purpose in an organization.
+
+     > Sales, marketing, executive, and content teams will each need their own unique         report that enables them to get access to data that affects their own unique roles and responsibilities. 
+
+     > The simplest way of deciding what information and storytelling elements to include in a dashboard is to try and answer the question, “How will this affect the team?”
+
+        ----> NewComer,     Enthusiast,     Scientist,      Master <-----
+
+
+        Newcomers lack analytical expertise and most likely will not know how to use it to better their decision-making.
+        On the contrary, they have an understanding of what they’d like to accomplish, so, as a storyteller, you can bridge the gap by telling a complete story around the data in conjunction with their specific goal.
+
+        Enthusiast will have full knowledge of the project, however, they’ll be reliant on key details and explanations from a more analytically minded individual.
+        Use data storytelling to point out the details they might miss and help them tie the story together.
+
+        Scientist and Masters on the other hand, will have much greater analytics expertise, but may require business context in order to build a relatable and understandable story.
+
+    
+
+        Analysts  Vs Business Users
+
+        Analysts:
+        Numerically minded individuals, skilled at detecting anomalies and highlighting important patterns in data.
+
+        Business Users:
+        Strategic decisions-makers, in tune with the market and overall company objectives.
+
+      
+        Business users should communicate with analysts about the metrics that will provide the most value to them, and help analysts to understand their importance.
+        By clearly relaying what they are working toward, they can help analysts create dashboards or reports with meaningful stories that answer their most dire questions.
+
+
+
+
+           
