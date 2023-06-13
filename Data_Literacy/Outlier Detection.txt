@@ -1,0 +1,103 @@
+OUTLIER DETECTION:
+       Outliers are generally defined as samples that are exceptionally far from the mainstream of data.
+       
+       An outlier may also be explained as a piece of data or observation that deviates drastically from the given norm or average of the data set.
+       
+       An outlier may be caused simply by chance, but it may also indicate measurement error or that the given data set has a heavy-tailed distribution.
+      
+      Outlier Detection may be defined as the process of detecting and subsequently excluding outliers from a given set of data. 
+       
+Outlier Detection Techniques:
+
+Remember two important questions about your dataset in times of outlier identification:
+
+(i) Which and how many features am I considering for outlier detection?
+    (univariate / multivariate)
+
+(ii) Can I assume a distribution(s) of values for my selected features?
+     (parametric / non-parametric)
+
+There are four Outlier Detection techniques in general:
+
+1. Numeric Outlier
+   Numeric Outlier is the simplest, nonparametric outlier detection technique in a one-dimensional feature space. The outliers are calculated by means of the IQR (InterQuartile Range). For example, the first and the third quartile (Q1, Q3) are calculated. An outlier is then a data point xi that lies outside the interquartile range.
+
+2. Z-Score
+   Z-score technique assumes a Gaussian distribution of the data.
+   The outliers are the data points that are in the tails of the distribution and therefore far from the mean.
+
+3. DBSCAN
+   DBSCAN is a nonparametric, density-based outlier detection method in a one or multi-dimensional feature space.
+  
+  Here, all data points are defined either as Core Points, Border Points or Noise Points.
+
+  Core Points are data points that have at least MinPts neighbouring data points within a distance ε.
+  Border Points are neighbours of a Core Point within the distance ε but with less than MinPts neighbours within the distance ε.
+  All other data points are Noise Points, also identified as outliers.
+
+4. Isolation Forest
+   This nonparametric method is ideal for large datasets in a one or multi-dimensional feature space.
+   The isolation number is of paramount importance in this Outlier Detection technique. 
+   A data point is therefore defined as an outlier if its isolation number is lower than the threshold.
+
+Outlier Detection Methods
+
+Models for Outlier Detection Analysis
+
+1.Extreme Value Analysis
+  Extreme Value Analysis is the most basic form of outlier detection and great for 1-dimension data.
+  In this Outlier analysis approach, it is assumed that values which are too large or too small are outliers. Z-test and Student’s t-test are classic examples.
+
+2.Linear Models
+  The data is modelled into a lower-dimensional sub-space with the use of linear correlations.
+  Then the distance of each data point to a plane that fits the sub-space is being calculated. This distance is used to find outliers.
+  PCA (Principal Component Analysis) is an example of linear models for anomaly detection.
+
+3.Probabilistic and Statistical Models
+  Probabilistic and Statistical Models assume specific distributions for data. They make use of the expectation-maximization (EM) methods to estimate the parameters of the model.
+  The points with a low probability of membership are marked as outliers.
+
+4.Proximity-based Models
+  Outliers are modelled as points isolated from the rest of the observations. Cluster analysis, density-based analysis, and nearest neighborhood are the principal approaches of this kind.
+
+5.Information-Theoretic Models
+  The outliers increase the minimum code length to describe a data set.
+
+Outlier Detection Methods In Use
+
+1.High Dimensional Outlier Detection
+  The traditional outlier detection approaches such as PCA and LOF will not be effective. High Contrast Subspaces for Density-Based Outlier Ranking (HiCS) method explained in this paper as an effective method to find outliers in high dimensional data sets.
+  
+  LOF method discussed in the previous section uses all features available in data set to calculate the nearest neighborhood of each data point, the density of each cluster and finally outlier score for each data point.
+
+2.Proximity Method
+  Once you have explored the simpler extreme value methods, consider moving onto proximity-based methods.
+
+  (i) Use clustering methods to identify the natural clusters in the data (such as the k-means algorithm).
+
+  (ii) Identify and mark the cluster centroids.
+
+  (iii) Identify data instances that are a fixed distance or percentage distance from cluster centroids.
+
+  (iv) Filter out the outliers candidate from training dataset and assess the model’s performance. 
+
+3.Projection Method
+  Projection methods are relatively simple to apply and quickly highlight extraneous values.
+
+  (i) Use projection methods to summarize your data to two dimensions (such as PCA, SOM or Sammon’s mapping).
+
+  (ii) Visualize the mapping and identify outliers by hand.
+
+  (iii) Use proximity measures from projected values or codebook vectors to identify outliers.
+
+  (iv) Filter out the outliers candidate from training dataset and assess the model’s performance.
+
+
+Outlier Detection Applications
+  The algorithms can be applied to several areas, including social network analysis, cyber-security, distributed systems, health care, and bio-informatics. Since both the amount of data as well as the linkage increase in a variety of domains, such network-based techniques will find more applications and more opportunities for research for various settings.
+
+Outlier Detection and Data Mining
+ Data mining involves algorithms of data mining, machine learning, statistics, and natural language processing, attempts to extract high quality, useful information from unstructured formats. The recent years have seen a tremendous increase in the adoption of text mining for business applications.
+
+
+
